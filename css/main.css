@@ -346,19 +346,14 @@ ul li {
   height: 100vh;
 }
 .site-header .intro h2 {
-  margin-top: 0px;
+  margin-bottom: 50px;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 500;
 }
 .site-header .intro h1 {
   margin-top: 0px;
   font-size: 50px;
   color: yellow;
-}
-.site-header .intro p {
-  font-size: 20px;
-  margin-bottom: 50px;
-  font-weight: 300;
 }
 
 .site-header .intro .CTA {
@@ -450,19 +445,11 @@ ul li {
   font-weight: 400;
 }
 
-/* 
- * 6.3 Section: Speaker
- */
-
-#speakers {
-  /* background-color: rgb(3, 3, 16); */
-}
-
 .speaker {
   text-align: center;
   color: #313131;
   text-transform: uppercase;
-  margin: 25px 0 10px 0;
+  margin: auto;
 }
 .speaker h4 {
   margin-top: 15px;
@@ -479,7 +466,7 @@ ul li {
   text-align: center;
 }
 
-.speakers .col-md-3 .container {
+.speakers .col-md-3 .contai {
   position: relative;
   width: 240px;
   height: 304px;
@@ -487,7 +474,7 @@ ul li {
   cursor: pointer;
 }
 
-.speakers .col-md-3 .container:active {
+.speakers .col-md-3 .contai:active {
   width: 230px;
   height: 294px;
 }
@@ -546,7 +533,7 @@ ul li {
   width: 100%;
   padding-top: 20px;
   background: linear-gradient(45deg, #ffffff, #fff700);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 15px rgb(0, 0, 0));
   text-shadow:
@@ -569,7 +556,7 @@ ul li {
   color: #00ffaa;
   margin-left: 5px;
   background: linear-gradient(90deg, #5c67ff, #ad51ff);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
@@ -730,7 +717,7 @@ ul li {
   filter: brightness(1.1);
 }
 
-.container:hover #card::before {
+.contai:hover #card::before {
   transition: 200ms;
   content: "";
   opacity: 80%;
