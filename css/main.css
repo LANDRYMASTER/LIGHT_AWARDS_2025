@@ -394,7 +394,7 @@ ul li {
 }
 
 .site-header .intro .CTA:hover {
-  color: var(--glow-color);
+  color: black;
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
           0 0 4em 2em var(--glow-spread-color),
@@ -1378,28 +1378,16 @@ ul li {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../assets/images/partner/partner-1.png) no-repeat center center/contain;
+  background: url(../assets/images/icon.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../assets/images/partner/partner-2.png) no-repeat center center/contain;
+  background: url(../assets/images/icon.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../assets/images/partner/partner-3.png) no-repeat center center/contain;
+  background: url(../assets/images/icon.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../assets/images/partner/partner-4.png) no-repeat center center/contain;
-}
-.partner .partner-box-5 {
-  background: url(../assets/images/partner/partner-5.png) no-repeat center center/contain;
-}
-.partner .partner-box-6 {
-  background: url(../assets/images/partner/partner-6.png) no-repeat center center/contain;
-}
-.partner .partner-box-7 {
-  background: url(../assets/images/partner/partner-7.png) no-repeat center center/contain;
-}
-.partner .partner-box-8 {
-  background: url(../assets/images/partner/partner-8.png) no-repeat center center/contain;
+  background: url(../assets/images/icon.png) no-repeat center center/contain;
 }
 
 /* 
