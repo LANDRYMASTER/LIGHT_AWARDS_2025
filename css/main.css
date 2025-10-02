@@ -306,6 +306,7 @@ ul li {
   margin-right: 5px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  text-shadow: 0 0 5px #fff701;
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
   text-decoration: none;
