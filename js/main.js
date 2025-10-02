@@ -62,4 +62,7 @@ mesElements.forEach(element => {
 });
 
 
-
+const facebookButton = document.getElementById('facebook');
+facebookButton.addEventListener('click', () => {
+	window.open('https://www.facebook.com/profile.php?id=61579284776085https://www.facebook.com/profile.php?id=61579284776085&sk=about' + encodeURIComponent(window.location.href), '_blank');
+});
