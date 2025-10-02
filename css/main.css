@@ -301,12 +301,12 @@ ul li {
 }
 .site-branding .logo {
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   margin-right: 5px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  text-shadow: 0 0 5px #fff701;
+  text-shadow: 0 0 10px #fff701;
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
   text-decoration: none;
